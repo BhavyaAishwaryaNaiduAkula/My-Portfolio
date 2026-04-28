@@ -18,7 +18,7 @@ export default function Hero() {
     <section className="h-full w-full relative flex items-center justify-center overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16">
-          
+
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
             <motion.div
@@ -96,12 +96,12 @@ export default function Hero() {
               {/* Outer glowing rings */}
               <div className="absolute inset-0 rounded-full border border-purple-500/30 animate-[spin_10s_linear_infinite]" />
               <div className="absolute inset-4 rounded-full border border-cyan-500/30 animate-[spin_15s_linear_infinite_reverse]" />
-              
+
               {/* Core Avatar */}
               <div className="absolute inset-8 rounded-full overflow-hidden flex items-center justify-center border border-white/20 bg-black/50">
-                <Image 
-                  src="/profile.jpg" 
-                  alt="Bhavya Aishwarya" 
+                <Image
+                  src="https://res.cloudinary.com/dvfbspv3p/image/upload/q_auto/f_auto/v1777356868/ChatGPT_Image_Apr_28_2026_11_35_34_AM_nehvj0.png"
+                  alt="Bhavya Aishwarya"
                   fill
                   className="object-cover"
                   priority
