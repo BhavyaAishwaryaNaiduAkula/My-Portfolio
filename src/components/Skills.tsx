@@ -12,23 +12,23 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 relative">
-      <div className="container mx-auto px-6">
+    <section id="skills" className="h-full w-full relative flex flex-col justify-center items-center">
+      <div className="container mx-auto px-6 max-w-6xl h-full flex flex-col justify-center py-12">
         
         <motion.div 
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-10 shrink-0"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-3">
             Technical <span className="text-gradient">Expertise</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mx-auto"></div>
+          <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full mx-auto"></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 h-full max-h-[75vh] overflow-y-auto hide-scrollbar pb-4">
           {categories.map((category, idx) => (
             <motion.div
               key={category.title}
@@ -36,20 +36,20 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="glass-card p-8 rounded-3xl"
+              className="glass-card p-6 rounded-3xl flex flex-col"
             >
-              <h3 className="text-2xl font-semibold text-white mb-8 border-b border-white/10 pb-4">
+              <h3 className="text-xl font-semibold text-white mb-6 border-b border-white/10 pb-3 shrink-0">
                 {category.title}
               </h3>
               
-              <div className="space-y-6">
+              <div className="space-y-5 flex-grow overflow-y-auto hide-scrollbar pr-2">
                 {category.data.map((skill, index) => (
                   <div key={skill.name}>
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-gray-300 font-medium">{skill.name}</span>
-                      <span className="text-cyan-400 text-sm font-bold">{skill.level}%</span>
+                      <span className="text-gray-300 font-medium text-sm">{skill.name}</span>
+                      <span className="text-cyan-400 text-xs font-bold">{skill.level}%</span>
                     </div>
-                    <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+                    <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
                       <motion.div 
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
