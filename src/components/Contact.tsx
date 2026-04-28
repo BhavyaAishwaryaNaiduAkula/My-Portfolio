@@ -44,7 +44,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-medium uppercase tracking-wider">Location</p>
-                  <p className="text-base font-semibold text-white">Remote / Worldwide</p>
+                  <p className="text-base font-semibold text-white">{personalData.location || "Remote / Worldwide"}</p>
                 </div>
               </div>
             </div>
