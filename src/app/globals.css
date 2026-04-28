@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #030014;
+  --color-foreground: #ffffff;
+  --color-primary: #7000FF;
+  --color-secondary: #00E5FF;
+  --color-accent: #FF00E5;
+}
+
+:root {
+  --background: #030014;
+  --foreground: #ffffff;
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  }
+  
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 hover:border-purple-500/50 transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-blue-500;
+  }
+
+  .glow-box {
+    @apply relative before:absolute before:-inset-1 before:bg-gradient-to-r before:from-purple-600 before:to-cyan-600 before:rounded-lg before:blur-lg before:opacity-20 hover:before:opacity-50 before:transition-opacity before:duration-500;
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030014;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
