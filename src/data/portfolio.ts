@@ -5,7 +5,7 @@ export const personalData = {
   summary: "A high-performance AI Engineer and Software Developer with a strong foundation in Mathematics, Physics, and Chemistry. Passionate about architecting intelligent systems, automating workflows, and building scalable full-stack applications. Proven ability to translate complex business problems into elegant, production-ready code. Actively seeking premium opportunities to drive innovation and create impactful technological solutions.",
   email: "hello@example.com",
   github: "https://github.com/BhavyaAishwaryaNaiduAkula",
-  linkedin: "https://linkedin.com/in/yourusername",
+  linkedin: "https://www.linkedin.com/in/bhavya-aishwarya-naidu-akula/",
   resumeUrl: "/resume.pdf", // Placeholder
   availability: "Available for Internships & Full-time Roles",
 };
