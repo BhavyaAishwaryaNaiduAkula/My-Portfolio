@@ -43,13 +43,13 @@ export const skillsData = {
 
 export const projectsData = [
   {
-    title: "Enterprise AI Chatbot Platform",
-    description: "A highly scalable, intelligent conversational agent built for enterprise customer support. Utilizes advanced NLP to provide contextual, accurate responses and seamlessly integrates with existing business workflows.",
-    tech: ["Python", "Next.js", "OpenAI API", "Tailwind CSS"],
-    impact: "Reduced customer support response times by 40% and improved resolution accuracy.",
-    github: "https://github.com/",
-    live: "https://example.com",
-    image: "/project-chatbot.jpg" // Placeholder
+    title: "NexusGuard - Autonomous DevOps Platform",
+    description: "A production-ready Multi-Agent System orchestrator that sequences independent AI agents to autonomously analyze logs, predict system failures, suggest fixes, and trigger external actions like GitHub PRs.",
+    tech: ["React", "Express.js", "Tailwind CSS", "AI Agents"],
+    impact: "Automated infrastructure monitoring and remediation, creating a self-healing DevOps workflow.",
+    github: "https://github.com/BhavyaAishwaryaNaiduAkula",
+    live: "https://project-cd8g4.vercel.app/",
+    image: "/project-nexus.jpg" 
   },
   {
     title: "Real-time Sign Language Translator",
