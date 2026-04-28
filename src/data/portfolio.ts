@@ -73,7 +73,7 @@ export const projectsData = [
 
 export const experienceData = [
   {
-    year: "2024 - Present",
+    year: "2026 - Present",
     title: "Open to Opportunities",
     company: "Seeking Internships & Entry-Level Roles",
     description: "Actively looking for opportunities to apply my skills in AI and Full-Stack Development in a professional environment. Currently focusing on building enterprise-grade personal projects."
