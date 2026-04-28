@@ -74,29 +74,17 @@ export const projectsData = [
 export const experienceData = [
   {
     year: "2024 - Present",
-    title: "Aspiring AI Engineer",
-    company: "Independent Projects",
-    description: "Developing production-ready AI applications, integrating LLMs into modern web architectures, and continuously mastering advanced software engineering principles."
-  },
-  {
-    year: "2023 - 2024",
-    title: "Full-Stack Development Focus",
-    company: "Learning & Building",
-    description: "Mastered React, Next.js, and modern CSS frameworks to build highly responsive, user-centric interfaces while developing robust backend APIs."
-  },
-  {
-    year: "2022 - 2023",
-    title: "Foundations in Computer Science",
-    company: "Academic & Personal",
-    description: "Built a strong theoretical foundation in Data Structures, Algorithms, and core programming paradigms using C++ and Python."
+    title: "Open to Opportunities",
+    company: "Seeking Internships & Entry-Level Roles",
+    description: "Actively looking for opportunities to apply my skills in AI and Full-Stack Development in a professional environment. Currently focusing on building enterprise-grade personal projects."
   }
 ];
 
 export const educationData = [
   {
-    degree: "B.Sc Student (3rd Year)",
-    institution: "University Name",
-    year: "2022 - 2025",
+    degree: "B.Sc Student",
+    institution: "University Name", // You can update this later
+    year: "Graduating in 2027",
     details: "Focus on Mathematics, Physics, and Chemistry (MPC). Strong analytical foundation applied to computer science and AI problem solving."
   }
 ];
