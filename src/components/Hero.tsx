@@ -97,9 +97,15 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-full border border-purple-500/30 animate-[spin_10s_linear_infinite]" />
               <div className="absolute inset-4 rounded-full border border-cyan-500/30 animate-[spin_15s_linear_infinite_reverse]" />
               
-              {/* Core Avatar Placeholder */}
-              <div className="absolute inset-8 rounded-full glass-card overflow-hidden flex items-center justify-center bg-gradient-to-br from-purple-900/40 to-cyan-900/40 border border-white/20">
-                 <span className="text-5xl font-bold text-white/50">B.A</span>
+              {/* Core Avatar */}
+              <div className="absolute inset-8 rounded-full overflow-hidden flex items-center justify-center border border-white/20 bg-black/50">
+                <Image 
+                  src="/profile.jpg" 
+                  alt="Bhavya Aishwarya" 
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
 
